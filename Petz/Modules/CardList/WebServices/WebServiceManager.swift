@@ -51,10 +51,6 @@ class WebServiceManager: NSObject {
         }
         
         do {
-            
-            let string = String(data: data, encoding: .utf8)
-            
-          //create json object from data
           if let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [AnyObject] {
             completion(json as [AnyObject],nil)
           }

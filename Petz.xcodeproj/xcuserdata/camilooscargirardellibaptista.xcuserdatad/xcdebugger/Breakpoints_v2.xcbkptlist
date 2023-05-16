@@ -159,7 +159,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "46"
                   endingLineNumber = "46"
-                  offsetFromSymbolStart = "217">
+                  offsetFromSymbolStart = "239">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -216,14 +216,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1E5C6017-FAA1-42B1-9A36-BAD990FC7AD5"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Petz/Modules/CardList/WebServices/WebServiceManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "requestAPI(url:parameter:httpMethodType:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -232,14 +232,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B1F09830-79AD-4D5A-B743-1EA7756B9600"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Petz/Modules/CardList/WebServices/WebServiceManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "requestAPI(url:parameter:httpMethodType:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -304,7 +304,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "46"
                   endingLineNumber = "46"
-                  offsetFromSymbolStart = "217">
+                  offsetFromSymbolStart = "239">
                </Location>
                <Location
                   uuid = "AE1CFC35-C426-4086-9B79-FB44A341B76B - fd77bfa4d4e5c2df"
@@ -319,7 +319,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "46"
                   endingLineNumber = "46"
-                  offsetFromSymbolStart = "287">
+                  offsetFromSymbolStart = "309">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -376,14 +376,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "CA298931-9CB9-42C6-89B9-8293923819C5"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Petz/Modules/CardList/WebServices/WebServiceManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "requestAPI(url:parameter:httpMethodType:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -398,8 +398,8 @@
             filePath = "Petz/Modules/CardList/WebServices/WebServiceManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "requestAPI(url:parameter:httpMethodType:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -472,14 +472,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2B85041A-EDD5-4018-BEE3-9672E269D426"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Petz/Modules/CardList/WebServices/WebServiceManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "requestAPI(url:parameter:httpMethodType:completion:)"
             landmarkType = "7">
             <Locations>
@@ -512,54 +512,6 @@
                   startingLineNumber = "58"
                   endingLineNumber = "58"
                   offsetFromSymbolStart = "1391">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "12AF2BE8-328C-472D-93D4-ACC3CDA7920E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Petz/Modules/CardList/WebServices/WebServiceManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "requestAPI(url:parameter:httpMethodType:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "12AF2BE8-328C-472D-93D4-ACC3CDA7920E - fd77bfa4d4e5c0ab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Petz.WebServiceManager.requestAPI(url: Swift.String, parameter: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, httpMethodType: Petz.WebServiceManager.HTTPMethodType, completion: (Swift.Optional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Petz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/camilooscargirardellibaptista/estudos/ios/Petz/Petz/Modules/CardList/WebServices/WebServiceManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "1211">
-               </Location>
-               <Location
-                  uuid = "12AF2BE8-328C-472D-93D4-ACC3CDA7920E - fd77bfa4d4e5c0ab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Petz.WebServiceManager.requestAPI(url: Swift.String, parameter: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;&gt;, httpMethodType: Petz.WebServiceManager.HTTPMethodType, completion: (Swift.Optional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Petz"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/camilooscargirardellibaptista/estudos/ios/Petz/Petz/Modules/CardList/WebServices/WebServiceManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "1621">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -625,6 +577,198 @@
             startingLineNumber = "41"
             endingLineNumber = "41"
             landmarkName = "showCardDetail(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF1CD97D-F57D-4D76-8B6E-BCC76052D289"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PetzTests/PetzTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "test_CardListApiResource_With_ValidResquest_Return_CardListResponse()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EF1CD97D-F57D-4D76-8B6E-BCC76052D289 - f3a5ba6720ee83f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetzTests.PetzTests.test_CardListApiResource_With_ValidResquest_Return_CardListResponse() -&gt; ()"
+                  moduleName = "PetzTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilooscargirardellibaptista/estudos/ios/Petz/PetzTests/PetzTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "157">
+               </Location>
+               <Location
+                  uuid = "EF1CD97D-F57D-4D76-8B6E-BCC76052D289 - 3159b46feb4ee172"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PetzTests.PetzTests.test_CardListApiResource_With_ValidResquest_Return_CardListResponse() -&gt; ()"
+                  moduleName = "PetzTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilooscargirardellibaptista/estudos/ios/Petz/PetzTests/PetzTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7DF0433-B17A-4BFB-A2F3-D7CD0A7B33EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Petz/Modules/CardList/WebServices/WebServiceManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "requestAPI(url:parameter:httpMethodType:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "295A684C-35FB-4C44-82C5-180257B888E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PetzTests/PetzTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "PetzTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEEBAA68-C7F0-4F5B-AD89-E8B75D8F20DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PetzTests/PetzTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "test_CardListApiResource_With_ValidResquest_Return_CardListResponse()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DEEBAA68-C7F0-4F5B-AD89-E8B75D8F20DE - 5843882fb91f151d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PetzTests.PetzTests.test_CardListApiResource_With_ValidResquest_Return_CardListResponse() async -&gt; ()"
+                  moduleName = "PetzTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilooscargirardellibaptista/estudos/ios/Petz/PetzTests/PetzTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  uuid = "DEEBAA68-C7F0-4F5B-AD89-E8B75D8F20DE - f3a5ba6720ee8233"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PetzTests.PetzTests.test_CardListApiResource_With_ValidResquest_Return_CardListResponse() -&gt; ()"
+                  moduleName = "PetzTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilooscargirardellibaptista/estudos/ios/Petz/PetzTests/PetzTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "265AB054-B0E5-4643-9355-1BAB8A9D63C2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PetzTests/PetzTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "test_CardListApiResource_With_ValidResquest_Return_CardListResponse()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "265AB054-B0E5-4643-9355-1BAB8A9D63C2 - 3159b46feb4ee1ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PetzTests.PetzTests.test_CardListApiResource_With_ValidResquest_Return_CardListResponse() -&gt; ()"
+                  moduleName = "PetzTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilooscargirardellibaptista/estudos/ios/Petz/PetzTests/PetzTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  uuid = "265AB054-B0E5-4643-9355-1BAB8A9D63C2 - 3159b46feb4ee1ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Swift.AnyObject&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PetzTests.PetzTests.test_CardListApiResource_With_ValidResquest_Return_CardListResponse() -&gt; ()"
+                  moduleName = "PetzTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camilooscargirardellibaptista/estudos/ios/Petz/PetzTests/PetzTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "655">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FEC3567-C299-4299-AC6C-2B0ABB7FAAC5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PetzTests/PetzTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "test_CardListApiResource_With_ValidResquest_Return_CardListResponse()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
