@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E53309482A12A3E700EAEC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309472A12A3E700EAEC8F /* AppDelegate.swift */; };
+		E533094A2A12A3E700EAEC8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309492A12A3E700EAEC8F /* SceneDelegate.swift */; };
+		E533094C2A12A3E700EAEC8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533094B2A12A3E700EAEC8F /* ViewController.swift */; };
+		E53309522A12A3E700EAEC8F /* Petz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E53309502A12A3E700EAEC8F /* Petz.xcdatamodeld */; };
+		E53309542A12A3E900EAEC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53309532A12A3E900EAEC8F /* Assets.xcassets */; };
+		E53309572A12A3E900EAEC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53309552A12A3E900EAEC8F /* LaunchScreen.storyboard */; };
+		E53309622A12A3E900EAEC8F /* PetzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309612A12A3E900EAEC8F /* PetzTests.swift */; };
+		E533096C2A12A3E900EAEC8F /* PetzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533096B2A12A3E900EAEC8F /* PetzUITests.swift */; };
+		E533096E2A12A3E900EAEC8F /* PetzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533096D2A12A3E900EAEC8F /* PetzUITestsLaunchTests.swift */; };
+		E533098B2A12A68500EAEC8F /* CardListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309802A12A68400EAEC8F /* CardListProtocols.swift */; };
+		E533098C2A12A68500EAEC8F /* CardListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309822A12A68400EAEC8F /* CardListWireframe.swift */; };
+		E533098D2A12A68500EAEC8F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309842A12A68400EAEC8F /* Card.swift */; };
+		E533098E2A12A68500EAEC8F /* CardListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309862A12A68500EAEC8F /* CardListInteractor.swift */; };
+		E533098F2A12A68500EAEC8F /* CardListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309882A12A68500EAEC8F /* CardListPresenter.swift */; };
+		E53309902A12A68500EAEC8F /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E533098A2A12A68500EAEC8F /* CardListView.swift */; };
+		E53309992A12A69400EAEC8F /* CardDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309922A12A69300EAEC8F /* CardDetailPresenter.swift */; };
+		E533099A2A12A69400EAEC8F /* CardDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309942A12A69400EAEC8F /* CardDetailProtocols.swift */; };
+		E533099B2A12A69400EAEC8F /* CardDetailWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309962A12A69400EAEC8F /* CardDetailWireFrame.swift */; };
+		E533099C2A12A69400EAEC8F /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309982A12A69400EAEC8F /* CardDetailView.swift */; };
+		E533099E2A12A84A00EAEC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E533099D2A12A84A00EAEC8F /* Main.storyboard */; };
+		E53309A62A130A0D00EAEC8F /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309A42A130A0D00EAEC8F /* WebServiceManager.swift */; };
+		E53309A72A130A0D00EAEC8F /* WebServiceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309A52A130A0D00EAEC8F /* WebServiceConstants.swift */; };
+		E53309A92A130CC400EAEC8F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309A82A130CC400EAEC8F /* Alert.swift */; };
+		E53309AC2A13CD7D00EAEC8F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53309AB2A13CD7D00EAEC8F /* String.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E533095E2A12A3E900EAEC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E533093C2A12A3E700EAEC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E53309432A12A3E700EAEC8F;
+			remoteInfo = Petz;
+		};
+		E53309682A12A3E900EAEC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E533093C2A12A3E700EAEC8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E53309432A12A3E700EAEC8F;
+			remoteInfo = Petz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E53309442A12A3E700EAEC8F /* Petz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53309472A12A3E700EAEC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E53309492A12A3E700EAEC8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E533094B2A12A3E700EAEC8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E53309512A12A3E700EAEC8F /* Petz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Petz.xcdatamodel; sourceTree = "<group>"; };
+		E53309532A12A3E900EAEC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E53309562A12A3E900EAEC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E53309582A12A3E900EAEC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E533095D2A12A3E900EAEC8F /* PetzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53309612A12A3E900EAEC8F /* PetzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetzTests.swift; sourceTree = "<group>"; };
+		E53309672A12A3E900EAEC8F /* PetzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E533096B2A12A3E900EAEC8F /* PetzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetzUITests.swift; sourceTree = "<group>"; };
+		E533096D2A12A3E900EAEC8F /* PetzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E53309802A12A68400EAEC8F /* CardListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListProtocols.swift; sourceTree = "<group>"; };
+		E53309822A12A68400EAEC8F /* CardListWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListWireframe.swift; sourceTree = "<group>"; };
+		E53309842A12A68400EAEC8F /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E53309862A12A68500EAEC8F /* CardListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListInteractor.swift; sourceTree = "<group>"; };
+		E53309882A12A68500EAEC8F /* CardListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListPresenter.swift; sourceTree = "<group>"; };
+		E533098A2A12A68500EAEC8F /* CardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		E53309922A12A69300EAEC8F /* CardDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailPresenter.swift; sourceTree = "<group>"; };
+		E53309942A12A69400EAEC8F /* CardDetailProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailProtocols.swift; sourceTree = "<group>"; };
+		E53309962A12A69400EAEC8F /* CardDetailWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailWireFrame.swift; sourceTree = "<group>"; };
+		E53309982A12A69400EAEC8F /* CardDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		E533099D2A12A84A00EAEC8F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E53309A42A130A0D00EAEC8F /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		E53309A52A130A0D00EAEC8F /* WebServiceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceConstants.swift; sourceTree = "<group>"; };
+		E53309A82A130CC400EAEC8F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		E53309AB2A13CD7D00EAEC8F /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E53309412A12A3E700EAEC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E533095A2A12A3E900EAEC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53309642A12A3E900EAEC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E533093B2A12A3E700EAEC8F = {
+			isa = PBXGroup;
+			children = (
+				E53309462A12A3E700EAEC8F /* Petz */,
+				E53309602A12A3E900EAEC8F /* PetzTests */,
+				E533096A2A12A3E900EAEC8F /* PetzUITests */,
+				E53309452A12A3E700EAEC8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E53309452A12A3E700EAEC8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E53309442A12A3E700EAEC8F /* Petz.app */,
+				E533095D2A12A3E900EAEC8F /* PetzTests.xctest */,
+				E53309672A12A3E900EAEC8F /* PetzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E53309462A12A3E700EAEC8F /* Petz */ = {
+			isa = PBXGroup;
+			children = (
+				E53309A12A13096A00EAEC8F /* Modules */,
+				E53309472A12A3E700EAEC8F /* AppDelegate.swift */,
+				E53309492A12A3E700EAEC8F /* SceneDelegate.swift */,
+				E533094B2A12A3E700EAEC8F /* ViewController.swift */,
+				E533099D2A12A84A00EAEC8F /* Main.storyboard */,
+				E53309532A12A3E900EAEC8F /* Assets.xcassets */,
+				E53309552A12A3E900EAEC8F /* LaunchScreen.storyboard */,
+				E53309582A12A3E900EAEC8F /* Info.plist */,
+				E53309502A12A3E700EAEC8F /* Petz.xcdatamodeld */,
+			);
+			path = Petz;
+			sourceTree = "<group>";
+		};
+		E53309602A12A3E900EAEC8F /* PetzTests */ = {
+			isa = PBXGroup;
+			children = (
+				E53309612A12A3E900EAEC8F /* PetzTests.swift */,
+			);
+			path = PetzTests;
+			sourceTree = "<group>";
+		};
+		E533096A2A12A3E900EAEC8F /* PetzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E533096B2A12A3E900EAEC8F /* PetzUITests.swift */,
+				E533096D2A12A3E900EAEC8F /* PetzUITestsLaunchTests.swift */,
+			);
+			path = PetzUITests;
+			sourceTree = "<group>";
+		};
+		E533097A2A12A47500EAEC8F /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				E53309A32A130A0D00EAEC8F /* WebServices */,
+				E53309832A12A68400EAEC8F /* Entity */,
+				E53309852A12A68500EAEC8F /* Interactor */,
+				E53309872A12A68500EAEC8F /* Presenter */,
+				E533097F2A12A68400EAEC8F /* Protocols */,
+				E53309892A12A68500EAEC8F /* View */,
+				E53309812A12A68400EAEC8F /* WireFrame */,
+				E533097C2A12A60D00EAEC8F /* Common */,
+			);
+			path = CardList;
+			sourceTree = "<group>";
+		};
+		E533097B2A12A48500EAEC8F /* CardDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E53309AA2A13CD6A00EAEC8F /* Extensions */,
+				E53309912A12A69300EAEC8F /* Presenter */,
+				E53309932A12A69400EAEC8F /* Protocols */,
+				E53309972A12A69400EAEC8F /* View */,
+				E53309952A12A69400EAEC8F /* Wireframe */,
+			);
+			path = CardDetail;
+			sourceTree = "<group>";
+		};
+		E533097C2A12A60D00EAEC8F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E53309A82A130CC400EAEC8F /* Alert.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E533097F2A12A68400EAEC8F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E53309802A12A68400EAEC8F /* CardListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E53309812A12A68400EAEC8F /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				E53309822A12A68400EAEC8F /* CardListWireframe.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		E53309832A12A68400EAEC8F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E53309842A12A68400EAEC8F /* Card.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E53309852A12A68500EAEC8F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E53309862A12A68500EAEC8F /* CardListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E53309872A12A68500EAEC8F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E53309882A12A68500EAEC8F /* CardListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E53309892A12A68500EAEC8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E533098A2A12A68500EAEC8F /* CardListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E53309912A12A69300EAEC8F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E53309922A12A69300EAEC8F /* CardDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E53309932A12A69400EAEC8F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E53309942A12A69400EAEC8F /* CardDetailProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E53309952A12A69400EAEC8F /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				E53309962A12A69400EAEC8F /* CardDetailWireFrame.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		E53309972A12A69400EAEC8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E53309982A12A69400EAEC8F /* CardDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E53309A12A13096A00EAEC8F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E533097A2A12A47500EAEC8F /* CardList */,
+				E533097B2A12A48500EAEC8F /* CardDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E53309A32A130A0D00EAEC8F /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				E53309A42A130A0D00EAEC8F /* WebServiceManager.swift */,
+				E53309A52A130A0D00EAEC8F /* WebServiceConstants.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		E53309AA2A13CD6A00EAEC8F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E53309AB2A13CD7D00EAEC8F /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E53309432A12A3E700EAEC8F /* Petz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53309712A12A3E900EAEC8F /* Build configuration list for PBXNativeTarget "Petz" */;
+			buildPhases = (
+				E53309402A12A3E700EAEC8F /* Sources */,
+				E53309412A12A3E700EAEC8F /* Frameworks */,
+				E53309422A12A3E700EAEC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Petz;
+			productName = Petz;
+			productReference = E53309442A12A3E700EAEC8F /* Petz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E533095C2A12A3E900EAEC8F /* PetzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53309742A12A3E900EAEC8F /* Build configuration list for PBXNativeTarget "PetzTests" */;
+			buildPhases = (
+				E53309592A12A3E900EAEC8F /* Sources */,
+				E533095A2A12A3E900EAEC8F /* Frameworks */,
+				E533095B2A12A3E900EAEC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E533095F2A12A3E900EAEC8F /* PBXTargetDependency */,
+			);
+			name = PetzTests;
+			productName = PetzTests;
+			productReference = E533095D2A12A3E900EAEC8F /* PetzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E53309662A12A3E900EAEC8F /* PetzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53309772A12A3E900EAEC8F /* Build configuration list for PBXNativeTarget "PetzUITests" */;
+			buildPhases = (
+				E53309632A12A3E900EAEC8F /* Sources */,
+				E53309642A12A3E900EAEC8F /* Frameworks */,
+				E53309652A12A3E900EAEC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E53309692A12A3E900EAEC8F /* PBXTargetDependency */,
+			);
+			name = PetzUITests;
+			productName = PetzUITests;
+			productReference = E53309672A12A3E900EAEC8F /* PetzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E533093C2A12A3E700EAEC8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E53309432A12A3E700EAEC8F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E533095C2A12A3E900EAEC8F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E53309432A12A3E700EAEC8F;
+					};
+					E53309662A12A3E900EAEC8F = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E53309432A12A3E700EAEC8F;
+					};
+				};
+			};
+			buildConfigurationList = E533093F2A12A3E700EAEC8F /* Build configuration list for PBXProject "Petz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E533093B2A12A3E700EAEC8F;
+			productRefGroup = E53309452A12A3E700EAEC8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E53309432A12A3E700EAEC8F /* Petz */,
+				E533095C2A12A3E900EAEC8F /* PetzTests */,
+				E53309662A12A3E900EAEC8F /* PetzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E53309422A12A3E700EAEC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53309572A12A3E900EAEC8F /* LaunchScreen.storyboard in Resources */,
+				E53309542A12A3E900EAEC8F /* Assets.xcassets in Resources */,
+				E533099E2A12A84A00EAEC8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E533095B2A12A3E900EAEC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53309652A12A3E900EAEC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E53309402A12A3E700EAEC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53309A92A130CC400EAEC8F /* Alert.swift in Sources */,
+				E533098D2A12A68500EAEC8F /* Card.swift in Sources */,
+				E533098F2A12A68500EAEC8F /* CardListPresenter.swift in Sources */,
+				E533099B2A12A69400EAEC8F /* CardDetailWireFrame.swift in Sources */,
+				E533098B2A12A68500EAEC8F /* CardListProtocols.swift in Sources */,
+				E533098C2A12A68500EAEC8F /* CardListWireframe.swift in Sources */,
+				E53309902A12A68500EAEC8F /* CardListView.swift in Sources */,
+				E53309522A12A3E700EAEC8F /* Petz.xcdatamodeld in Sources */,
+				E533099C2A12A69400EAEC8F /* CardDetailView.swift in Sources */,
+				E53309992A12A69400EAEC8F /* CardDetailPresenter.swift in Sources */,
+				E533094C2A12A3E700EAEC8F /* ViewController.swift in Sources */,
+				E533098E2A12A68500EAEC8F /* CardListInteractor.swift in Sources */,
+				E533099A2A12A69400EAEC8F /* CardDetailProtocols.swift in Sources */,
+				E53309A62A130A0D00EAEC8F /* WebServiceManager.swift in Sources */,
+				E53309AC2A13CD7D00EAEC8F /* String.swift in Sources */,
+				E53309A72A130A0D00EAEC8F /* WebServiceConstants.swift in Sources */,
+				E53309482A12A3E700EAEC8F /* AppDelegate.swift in Sources */,
+				E533094A2A12A3E700EAEC8F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53309592A12A3E900EAEC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53309622A12A3E900EAEC8F /* PetzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53309632A12A3E900EAEC8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E533096C2A12A3E900EAEC8F /* PetzUITests.swift in Sources */,
+				E533096E2A12A3E900EAEC8F /* PetzUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E533095F2A12A3E900EAEC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E53309432A12A3E700EAEC8F /* Petz */;
+			targetProxy = E533095E2A12A3E900EAEC8F /* PBXContainerItemProxy */;
+		};
+		E53309692A12A3E900EAEC8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E53309432A12A3E700EAEC8F /* Petz */;
+			targetProxy = E53309682A12A3E900EAEC8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E53309552A12A3E900EAEC8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53309562A12A3E900EAEC8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E533096F2A12A3E900EAEC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E53309702A12A3E900EAEC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E53309722A12A3E900EAEC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Petz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilo.baptista.Petz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E53309732A12A3E900EAEC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Petz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilo.baptista.Petz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E53309752A12A3E900EAEC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilo.baptista.PetzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Petz";
+			};
+			name = Debug;
+		};
+		E53309762A12A3E900EAEC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilo.baptista.PetzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Petz";
+			};
+			name = Release;
+		};
+		E53309782A12A3E900EAEC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilo.baptista.PetzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Petz;
+			};
+			name = Debug;
+		};
+		E53309792A12A3E900EAEC8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.camilo.baptista.PetzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Petz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E533093F2A12A3E700EAEC8F /* Build configuration list for PBXProject "Petz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E533096F2A12A3E900EAEC8F /* Debug */,
+				E53309702A12A3E900EAEC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E53309712A12A3E900EAEC8F /* Build configuration list for PBXNativeTarget "Petz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53309722A12A3E900EAEC8F /* Debug */,
+				E53309732A12A3E900EAEC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E53309742A12A3E900EAEC8F /* Build configuration list for PBXNativeTarget "PetzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53309752A12A3E900EAEC8F /* Debug */,
+				E53309762A12A3E900EAEC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E53309772A12A3E900EAEC8F /* Build configuration list for PBXNativeTarget "PetzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53309782A12A3E900EAEC8F /* Debug */,
+				E53309792A12A3E900EAEC8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E53309502A12A3E700EAEC8F /* Petz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E53309512A12A3E700EAEC8F /* Petz.xcdatamodel */,
+			);
+			currentVersion = E53309512A12A3E700EAEC8F /* Petz.xcdatamodel */;
+			path = Petz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E533093C2A12A3E700EAEC8F /* Project object */;
+}
